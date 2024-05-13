@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header,
+header * {
+    outline: 1px black
+    dashed;
+}
+
+section,
+section *{
+    
+}
+
+header {
+    display: flex;
+    justify-content:
+    space-between;
+    padding: 1rem;
+    align-items: center;
+
+    & > nav {
+        display: flex;
+        gap: .5rem;
+
+        & > button {
+            padding: 1rem
+            2rem;
+            border: none;  
+            background:
+            transparent;
+
+        }
+    }
+
+    
+}
